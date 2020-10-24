@@ -1,0 +1,62 @@
+.control
+    &__video
+        position: relative
+        display: flex
+        margin: auto
+        max-width: 817px
+        min-height: 434px
+        background: url('../image/videobg.jpg')  no-repeat center
+        margin-bottom: 4rem
+        &::before
+            content: ''
+            position: absolute
+            width: 100%
+            height: 100%
+            background-color: rgba(black, 0.8)
+    &__section-title
+        margin-bottom: 2.21rem
+        margin-top: -30rem
+        &--light
+            color: $light
+    &__text
+        margin-top: 3rem
+        margin: auto
+        text-align: center
+        font-size: 1.428rem
+        line-height: 2.1rem
+        font-family: 'Futura Book', sans-serif
+        max-width: 571px
+        min-height: 162px
+        margin-bottom: 4.285rem
+        &::before
+            content: ''
+            margin: auto
+            display: block
+            width: 55px
+            height: 2px
+            border-radius: 30px
+            background-color: $primary
+            margin-bottom: 2.5rem
+    &__form
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        max-width: 55rem
+        margin: auto
+    &__input-group
+        display: flex
+        flex-direction: column
+        flex-basis: 30%
+    &__button
+        padding: 1.285rem 4.785rem
+    &__policy
+        flex-basis: 100%
+        margin-top: 3rem
+        display: flex
+        justify-content: center
+.video
+    &__play
+        position: relative
+        align-items: center
+        margin: auto
+        cursor: pointer
